@@ -11,5 +11,5 @@ Accept input via the command-line arguments. Validate command-line input. Input 
 ## Output:
 Display the original deck (ordered) and the shuffled deck (random), and display each of the player’s hands of cards. Decks, hands and cards should be clean, clear and appropriately labeled, and easy to read - do not simply list as a long column or row of values. No graphics for suit/rank is required (but is attractive), but a simple code for each will suffice – as long as it is easy to understand.
 
-## Screenshot:
+
 <img src="screenshots/output.JPG">

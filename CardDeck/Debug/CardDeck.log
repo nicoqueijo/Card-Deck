@@ -1,0 +1,5 @@
+﻿  CardDeck.c
+c:\users\nicoq\documents\visual studio 2017\projects\carddeck\carddeck\carddeck.c(140): warning C4013: 'isdigit' undefined; assuming extern returning int
+c:\users\nicoq\documents\visual studio 2017\projects\carddeck\carddeck\carddeck.c(235): warning C4013: 'time' undefined; assuming extern returning int
+  CardDeck.vcxproj -> C:\Users\nicoq\Documents\Visual Studio 2017\Projects\CardDeck\Debug\CardDeck.exe
+  CardDeck.vcxproj -> C:\Users\nicoq\Documents\Visual Studio 2017\Projects\CardDeck\Debug\CardDeck.pdb (Partial PDB)

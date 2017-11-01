@@ -1,0 +1,61 @@
+--------------------------------------------------------------------------------
+
+/*
+   	Nicolás Queijo
+	Program #3 Simulates and deals deck of cards
+	PID: 5152398
+   	COP4338 - U03
+    T/R 18:25 - 19:40
+    William Feild
+	I hereby certify that this collective work is my own 
+	and none of it is the work of any other person or entity. 
+ */
+ 
+ 
+ PSEUDOCODE:
+ 
+ 1. Validate the command-line arguments entered by the user.
+		We first must verify that exactly two command-line arguments were
+		specified. If not print an appropriate error message and exit the
+		program.
+		Once we have verified that we received 2 command-line arguments we 
+		must assure that both of these arguments are in the form of positive
+		integers. If they are not print an appropriate error message and exit
+		the program. 
+		Once we have verified that both of the received arguments are positive
+		integers, assure that they are each within the range of 1-13. If either
+		one is not in that range print an appropriate error message and exit the
+		program.
+		Once we have verified that both integers are in the range of 1-13 we 
+		must verify that their product does not exceed 52. If it does print an
+		appropriate error message and exit the program.
+		
+2. Create the original deck with the 52 ordered cards.
+		We can do this by creating a 3D array where the first two dimensions
+		represent the rows and columns of the deck. The last dimension represents
+		the suit and rank of the card.
+	
+3. Display the original, ordered deck to the console.
+		This can be done by traversing the deck array and printing out each
+		card to the console.
+	
+4. Shuffle the original deck to randomize the card order.
+		This can be done by traversing the deck and swapping each card with a 
+		another random card in the deck.
+		
+5. Display the now shuffled deck to the console.
+		This can be done by traversing the deck array and printing out each
+		card to the console.
+		
+6. Deal the cards to the players in the game.
+		For this we will need the information we validated in step one. In step
+		one we gathered the cards per hand and the number of players participating
+		in the game. To perform this deal of cards we can traverse through the
+		deck of cards and give each player x cards where x is the cards per hand
+		value. This will be stored as its own entity in another 3D array.
+		
+7. Display the hands to the console.
+		To display the hands to the console we can simply traverse the array we
+		are using to store the hands and print each card of each player.
+
+--------------------------------------------------------------------------------
